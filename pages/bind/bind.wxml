@@ -1,0 +1,8 @@
+<!--pages/bind/bind.wxml-->
+<text>pages/bind/bind.wxml</text>
+<text>数据绑定</text>
+
+<view>数据1：{{message}}</view>
+<view>数据2：{{message}}</view>
+
+<button bindtap="changeData">点击修改数据</button>

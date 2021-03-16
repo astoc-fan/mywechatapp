@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/redirect/redirect"
+    "pages/redirect/redirect",
+    "pages/bind/bind"
   ],
   "window": {
     "backgroundTextStyle": "light",
