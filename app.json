@@ -5,9 +5,33 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "小小拍 - dev",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Main",
+        "iconPath": "static/img/icon/home.png",
+        "selectedIconPath": "static/img/icon/home-selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text":"Mine",
+        
+        "iconPath": "static/img/icon/mine.png",
+        "selectedIconPath": "static/img/icon/mine-selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text":"Log",
+        "iconPath": "static/img/icon/log.png",
+        "selectedIconPath": "static/img/icon/log-selected.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
