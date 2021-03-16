@@ -17,7 +17,11 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view> -->
-<view>sample 1</view>
+<button bindtap="clickme" data-nid="nid234">点我跳转</button>
+
+<navigator url="/pages/redirect/redirect?id=666">点击跳转2</navigator>
+
+  <view>sample 1</view>
   <view class="menu-1">
     <view class="item">
       <image src="https://picsum.photos/200"></image>

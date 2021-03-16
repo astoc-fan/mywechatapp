@@ -1,5 +1,5 @@
 /**index.wxss**/
-.userinfo {
+/* .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@
 
 .usermotto {
   margin-top: 200px;
-}
+} */
 
 .menu-1 image, .menu-2 image{
   width: 128rpx;

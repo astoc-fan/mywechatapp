@@ -44,5 +44,15 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+
+  // 点击绑定事件
+  clickme:function (e){
+    var nid = e.currentTarget.dataset.nid;
+    console.log(nid);
+    //跳转
+    wx.navigateTo({
+      url: '/pages/redirect/redirect?id='+nid,
+    })
+  },
 })
