@@ -19,7 +19,7 @@
   </view> -->
 <button bindtap="clickme" data-nid="nid234">点我跳转</button>
 
-<navigator url="/pages/redirect/redirect?id=666">点击跳转2</navigator>
+<navigator url="/pages/bind/bind?id=666">点击跳转 - bind page</navigator>
 
   <view>sample 1</view>
   <view class="menu-1">
