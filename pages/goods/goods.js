@@ -1,46 +1,20 @@
-// pages/bind/bind.js
+// pages/goods/goods.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    message: "new message!",
-    name: "请登录",
-    path: "/static/img/icon/mine-selected.png"
-  },
-
-  changeData: function () {
-    //获取数据
-    console.log(this.data.message);
-
-    // 修改数据
-    this.setData({
-      message: "big message!"
-    })
-  },
-
-  getUserName: function () {
-    var that = this;
-    wx.getUserInfo({
-      success: function (res) {
-        // console.log(res.userInfo)
-        that.setData({
-          name: res.userInfo.nickName,
-          path: res.userInfo.avatarUrl
-        })
-      },
-      fail: function (res) {
-        console.log('fail', res)
-      }
-    })
+    datalist:["张","王","李"],
+    userInfo:{
+      name:"Ada",age:18
+    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
 
   },
 

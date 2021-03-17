@@ -1,46 +1,37 @@
-// pages/bind/bind.js
+// pages/publish/publish.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    message: "new message!",
-    name: "请登录",
-    path: "/static/img/icon/mine-selected.png"
+    imageList: ['/static/img/icon/home-selected.png', '/static/img/icon/log-selected.png']
   },
 
-  changeData: function () {
-    //获取数据
-    console.log(this.data.message);
-
-    // 修改数据
-    this.setData({
-      message: "big message!"
-    })
-  },
-
-  getUserName: function () {
+  uploadImage: function () {
     var that = this;
-    wx.getUserInfo({
-      success: function (res) {
-        // console.log(res.userInfo)
+    wx.chooseImage({
+      count: 9,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
+      success(res) {
+        // tempFilePath可以作为img标签的src属性显示图片
+        console.log(res.tempFilePaths);
+        const tempFilePaths = res.tempFilePaths
+        // 默认图片 + 老图片
         that.setData({
-          name: res.userInfo.nickName,
-          path: res.userInfo.avatarUrl
+          imageList: that.data.imageList.concat(tempFilePaths)
         })
       },
-      fail: function (res) {
-        console.log('fail', res)
-      }
+      complete: function () {
+
+      },
     })
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
 
   },
 

@@ -20,7 +20,7 @@
 <button bindtap="clickme" data-nid="nid234">点我跳转</button>
 
 <navigator url="/pages/bind/bind?id=666">点击跳转 - bind page</navigator>
-
+<navigator url="/pages/publish/publish">拍照上传</navigator>
   <view>sample 1</view>
   <view class="menu-1">
     <view class="item">

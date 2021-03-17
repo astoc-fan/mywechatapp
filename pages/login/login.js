@@ -1,46 +1,47 @@
-// pages/bind/bind.js
+// pages/login/login.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    message: "new message!",
     name: "请登录",
-    path: "/static/img/icon/mine-selected.png"
+    path: "/static/img/icon/mine-selected.png",
+    LocalPath: "选择位置"
   },
 
-  changeData: function () {
-    //获取数据
-    console.log(this.data.message);
-
-    // 修改数据
-    this.setData({
-      message: "big message!"
+  fetchInfo: function () {
+    //打开配置手动授权
+    wx.openSetting({
+      withSubscriptions: true,
     })
-  },
-
-  getUserName: function () {
     var that = this;
     wx.getUserInfo({
       success: function (res) {
-        // console.log(res.userInfo)
         that.setData({
           name: res.userInfo.nickName,
           path: res.userInfo.avatarUrl
         })
+
       },
-      fail: function (res) {
-        console.log('fail', res)
-      }
     })
   },
 
+  getLocalPath: function () {
+    var that = this;
+    wx.chooseLocation({
+      success: function (res) {
+        // console.log(res);
+        that.setData({
+          LocalPath: res.address
+        });
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
 
   },
 

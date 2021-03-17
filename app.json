@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/redirect/redirect",
-    "pages/bind/bind"
+    "pages/bind/bind",
+    "pages/login/login",
+    "pages/goods/goods",
+    "pages/publish/publish"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,7 +24,7 @@
         "selectedIconPath": "static/img/icon/home-selected.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/login/login",
         "text": "Mine",
         "iconPath": "static/img/icon/mine.png",
         "selectedIconPath": "static/img/icon/mine-selected.png"
