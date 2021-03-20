@@ -40,8 +40,9 @@
   <view>sample 2</view>
   <view class="menu-2">
     <view class="item">
+      <navigator url="/pages/publish/publish">
       <image src="https://picsum.photos/200"></image>
-      <text>item 2</text>
+      <view><text>拍照</text></view></navigator>
     </view>
     <view class="item">
       <image src="https://picsum.photos/200"></image>

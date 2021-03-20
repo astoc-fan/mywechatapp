@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imageList: ['/static/img/icon/home-selected.png', '/static/img/icon/log-selected.png']
+    imageList: ['/static/img/icon/home-selected.png']
   },
 
   uploadImage: function () {
@@ -18,9 +18,9 @@ Page({
         // tempFilePath可以作为img标签的src属性显示图片
         console.log(res.tempFilePaths);
         const tempFilePaths = res.tempFilePaths
-        // 默认图片 + 老图片
+        // 默认图片 + 添加的图片
         that.setData({
-          imageList: that.data.imageList.concat(tempFilePaths)
+          imageList: that.data.imageList.concat(tempFilePathsimageList)
         })
       },
       complete: function () {
