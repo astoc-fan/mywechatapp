@@ -6,7 +6,8 @@
     "pages/bind/bind",
     "pages/login/login",
     "pages/goods/goods",
-    "pages/publish/publish"
+    "pages/publish/publish",
+    "pages/telphone/telphone"
   ],
   "window": {
     "backgroundTextStyle": "light",

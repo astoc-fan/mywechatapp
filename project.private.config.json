@@ -35,6 +35,11 @@
           "pathName": "pages/publish/publish",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/telphone/telphone",
+          "pathName": "pages/telphone/telphone",
+          "scene": null
         }
       ]
     }
