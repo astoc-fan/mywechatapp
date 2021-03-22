@@ -17,25 +17,11 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view> -->
-<button bindtap="clickme" data-nid="nid234">点我跳转</button>
+<!-- <button bindtap="clickme" data-nid="nid234">点我跳转</button> -->
 
 <navigator url="/pages/bind/bind?id=666">点击跳转 - bind page</navigator>
 <navigator url="/pages/publish/publish">拍照上传</navigator>
-  <view>sample 1</view>
-  <view class="menu-1">
-    <view class="item">
-      <image src="https://picsum.photos/200"></image>
-    </view>
-    <view class="item">
-      <image src="https://picsum.photos/200"></image>
-    </view>
-    <view class="item">
-      <image src="https://picsum.photos/200"></image>
-    </view>
-    <view class="item">
-      <image src="https://picsum.photos/200"></image>
-    </view>
-  </view>
+
 
   <view>sample 2</view>
   <view class="menu-2">
@@ -57,26 +43,6 @@
       <text>item 2</text>
     </view>
   </view>
-
-<view>sample 3</view>
-<view class="auction">
-  <view class="item">
-    <view class="title">Title 1 blabla</view>
-    <view class="tips">
-      <view class="status">2021-3-15</view>
-      <view class="count">98 times</view>
-    </view>
-    <view class="big">
-      <image src="https://picsum.photos/500"></image>
-    </view>
-    <view class="small">
-      <image src="https://picsum.photos/100"></image>
-      <image src="https://picsum.photos/100"></image>
-      <image src="https://picsum.photos/100"></image>
-      <image src="https://picsum.photos/100"></image>
-    </view>
-  </view>
-</view>
 
 <view class="auction">
   <view class="item">
