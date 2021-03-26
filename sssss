@@ -1,0 +1,53 @@
+[33mcommit 62e9246368f14a8dfcbfe54afad9437c02cbbe33[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Stef Fan <stef.fan@expeditors.com>
+Date:   Mon Mar 22 13:38:51 2021 +0800
+
+    clean up
+
+[33mcommit b254e6e9bb4e853b30376f3598a341be38b904c2[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: astoc-fan <astoc.fan@gmail.com>
+Date:   Sun Mar 21 21:58:53 2021 +0800
+
+    bindinput,wx.request
+
+[33mcommit 8a2c3759559e7df178b124c087a0671c0f46c225[m
+Author: astoc-fan <astoc.fan@gmail.com>
+Date:   Sat Mar 20 21:54:40 2021 +0800
+
+    modify index to add shortcut to publish page
+
+[33mcommit db696e08b4aca8f97c05504ace6c468fda453579[m
+Author: astoc-fan <astoc.fan@gmail.com>
+Date:   Wed Mar 17 22:34:25 2021 +0800
+
+    add uploadImage
+
+[33mcommit f46314423734900acec174484c52f3d5d7c362c6[m
+Author: Stef Fan <stef.fan@expeditors.com>
+Date:   Wed Mar 17 16:29:00 2021 +0800
+
+    bind data
+
+[33mcommit feb1c0a79fb4d2cef9e51010e93674cba758b7dd[m
+Author: astoc-fan <astoc.fan@gmail.com>
+Date:   Tue Mar 16 22:33:01 2021 +0800
+
+    databind
+
+[33mcommit 2b53ae8acdd56eaf3d955c89205dedaaae94f72e[m
+Author: astoc-fan <astoc.fan@gmail.com>
+Date:   Tue Mar 16 21:56:24 2021 +0800
+
+    navigator
+
+[33mcommit 9c0f455fe38f5c9f2f4c3712a86d5aa0e57fd5d7[m
+Author: Stef Fan <stef.fan@expeditors.com>
+Date:   Tue Mar 16 16:22:36 2021 +0800
+
+    day1-completed
+
+[33mcommit 3ebe3ab5cceaf06edb33d3e40ca19468724d33b6[m
+Author: astoc-fan <astoc.fan@gmail.com>
+Date:   Mon Mar 15 22:32:52 2021 +0800
+
+    day1
