@@ -1,2 +1,6 @@
 <!--pages/upload2/upload2.wxml-->
 <text>pages/upload2/upload2.wxml</text>
+<button bindtap='chooseImg'>选择图片</button>
+<view><image src='{{img_l}}' bindtap='preview_img'></image></view>
+ 
+<button bindtap='up_img'>上传</button>
