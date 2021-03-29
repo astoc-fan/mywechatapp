@@ -2,43 +2,45 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/redirect/redirect",
-    "pages/bind/bind",
-    "pages/login/login",
-    "pages/goods/goods",
-    "pages/publish/publish",
-    "pages/telphone/telphone",
-    "pages/upload2/upload2"
+    "pages/mine/mine",
+    "pages/upload/upload"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ccc",
-    "navigationBarTitleText": "小小拍 - dev",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "van-uploader": "@vant/weapp/uploader/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-picker": "@vant/weapp/picker/index"
+  },
   "tabBar": {
-    "selectedColor": "#1296db",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "Main",
-        "iconPath": "static/img/icon/home.png",
-        "selectedIconPath": "static/img/icon/home-selected.png"
+        "text": "主页",
+        "iconPath": "img/icon/home.png",
+        "selectedIconPath": "img/icon/home-selected.png"
       },
       {
-        "pagePath": "pages/login/login",
-        "text": "Mine",
-        "iconPath": "static/img/icon/mine.png",
-        "selectedIconPath": "static/img/icon/mine-selected.png"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "Log",
-        "iconPath": "static/img/icon/log.png",
-        "selectedIconPath": "static/img/icon/log-selected.png"
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "img/icon/usercenter.png",
+        "selectedIconPath": "img/icon/usercenter-selected.png"
       }
     ]
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  }
 }

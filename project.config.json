@@ -23,7 +23,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": false,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -41,8 +41,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.16.0",
-  "appid": "wxd0d4eeaef82b9171",
-  "projectname": "miniprogram-3",
+  "appid": "wx30720c392be8a6e6",
+  "projectname": "expd-cargo-photo-upload",
   "debugOptions": {
     "hidedInDevtools": []
   },
@@ -52,8 +52,6 @@
     "servePath": ""
   },
   "isGameTourist": false,
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
   "condition": {
     "search": {
       "list": []

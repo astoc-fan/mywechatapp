@@ -1,5 +1,4 @@
 {
-  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -13,44 +12,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/bind/bind",
-          "pathName": "pages/bind/bind",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/login/login",
-          "pathName": "pages/login/login",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/goods/goods",
-          "pathName": "pages/goods/goods",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/publish/publish",
-          "pathName": "pages/publish/publish",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/telphone/telphone",
-          "pathName": "pages/telphone/telphone",
-          "query": "",
-          "scene": null
-        },
-        {
           "name": "pages/upload/upload",
           "pathName": "pages/upload/upload",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/upload2/upload2",
-          "pathName": "pages/upload2/upload2",
           "scene": null
         }
       ]

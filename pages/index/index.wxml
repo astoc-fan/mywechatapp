@@ -1,64 +1,9 @@
-<!--index.wxml-->
-<!-- 
-  <view class="userinfo">
-    <block wx:if="{{canIUseOpenData}}" calss="userinfo-opendata">
-      <view class="userinfo-avatar" bindtap="bindViewTap">
-        <open-data type="userAvatarUrl"></open-data>
-      </view>
-      <open-data type="userNickName"></open-data>
-    </block>
-    <block wx:elif="{{!hasUserInfo}}">
-      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
-      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
-    </block>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view> -->
-<!-- <button bindtap="clickme" data-nid="nid234">点我跳转</button> -->
-
-<navigator url="/pages/bind/bind?id=666">点击跳转 - bind page</navigator>
-<navigator url="/pages/publish/publish">拍照上传</navigator>
-
-
-  <view>sample 2</view>
-  <view class="menu-2">
-    <view class="item">
-      <navigator url="/pages/publish/publish">
-      <image src="https://picsum.photos/200"></image>
-      <view><text>拍照</text></view></navigator>
-    </view>
-    <view class="item">
-      <image src="https://picsum.photos/200"></image>
-      <text>item 2</text>
-    </view>
-    <view class="item">
-      <image src="https://picsum.photos/200"></image>
-      <text>item 2</text>
-    </view>
-    <view class="item">
-      <image src="https://picsum.photos/200"></image>
-      <text>item 2</text>
-    </view>
+<view class="container">
+  <view class="logo">
+    <image class = 'image' src="../../img/logo.png" alt=""></image>
   </view>
-
-<view class="auction">
-  <view class="item">
-    <view class="title">Title 1 blabla</view>
-    <view class="tips">
-      <view class="status">2021-3-15</view>
-      <view class="count">98 times</view>
-    </view>
-    <view class="big">
-      <image src="https://picsum.photos/600"></image>
-    </view>
-    <view class="small">
-      <image src="https://picsum.photos/120"></image>
-      <image src="https://picsum.photos/130"></image>
-      <image src="https://picsum.photos/140"></image>
-      <image src="https://picsum.photos/150"></image>
-    </view>
-  </view>
+    <navigator url="/pages/upload/upload">
+      <van-icon color="red" size="200rpx" name="upgrade" />
+      <view class="logo">拍照上传</view>
+    </navigator>
 </view>
