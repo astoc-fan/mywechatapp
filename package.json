@@ -1,0 +1,24 @@
+{
+  "name": "mywechatapp",
+  "version": "1.0.0",
+  "description": "npm-install-package",
+  "main": "app.js",
+  "dependencies": {
+    "@vant/weapp": "^1.6.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astoc-fan/mywechatapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "privat": true,
+  "bugs": {
+    "url": "https://github.com/astoc-fan/mywechatapp/issues"
+  },
+  "homepage": "https://github.com/astoc-fan/mywechatapp#readme"
+}
