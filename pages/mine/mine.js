@@ -1,40 +1,13 @@
-// pages/telphone/telphone.js
+// pages/mine/mine.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    phone: "",
-    code: ""
+
   },
 
-  bindPhone: function (e) {
-    console.log(e);
-    this.setData({
-      phone: e.detail.value
-    });
-  },
-
-  bindCode: function (e) {
-    console.log(e);
-    this.setData({
-      code: e.detail.value
-    });
-  },
-
-  login: function () {
-    console.log(this.data.phone, this.data.code);
-    // 讲手机号和验证码发送到后端，进行登录
-    wx.request({
-      url: 'url',
-      data: {phone : this.data.phone, code: this.data.code},
-      method: 'POST',
-      success: (result) => {
-        
-      },
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

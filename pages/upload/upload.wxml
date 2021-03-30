@@ -1,0 +1,47 @@
+<!--pages/upload/upload.wxml-->
+
+<van-cell-group>
+  <view>选择图片或拍照</view>
+  <van-uploader file-list="{{ fileList }}" accept="image" capture="['album', 'camera']" upload-text="上传图片或拍照"
+    bind:after-read="afterRead" bind:delete="delete" multiple="{{true}}" />
+    <van-field
+    value="{{ file_num }}"
+    required
+    clearable
+    label="货物单号"
+    left-icon="orders-o"
+    placeholder="请输入货物单号"
+    bind:click-icon="onClickIcon"
+  />
+  <view bindtap="showPopup">
+    <van-field
+      label="图片类型"
+      placeholder="选择图片类型"
+      required
+      clearable
+      is-link
+      left-icon="orders-o"
+      value = "{{ pickvalue }}"
+    />
+  </view>
+  <van-popup 
+    round 
+    show="{{ showPopup  }}" 
+    position="bottom" 
+    custom-style="height: 40%;" 
+    bind:close="onClose"
+  >
+    <van-picker 
+      show-toolbar
+      title="标题"
+      value-key="value"
+      default-index="{{ 0 }}"
+      columns="{{ conditionOptions  }}"
+      bind:change="onPickerChange"
+      bind:cancel="onPickerCancel"
+      bind:confirm="onPickerConfirm"
+    />
+  </van-popup>
+
+</van-cell-group> 
+<van-button round type="primary" bindtap="uploadReportPic" bind> 上传 </van-button>

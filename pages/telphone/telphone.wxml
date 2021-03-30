@@ -1,9 +1,0 @@
-<!--pages/telphone/telphone.wxml-->
-<text>pages/telphone/telphone.wxml</text>
-
-<view>手机号：</view>
-<input type="text" value="{{phone}}" bindinput="bindPhone" placeholder="请输入手机号"></input>
-<view>验证码： <view>点击获取验证码</view></view>
-<input type="text" value="{{code}}" bindinput="bindCode" placeholder="请输入验证码"></input>
-
-<button bindtap="login">登录</button>

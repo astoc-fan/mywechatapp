@@ -1,9 +1,0 @@
-<!--pages/login/login.wxml-->
-<view>当前用户：{{name}}</view>
-<view>用户头像：
-  <image src="{{path}}" style="width:100rpx;height:100rpx;" alt=""></image>
-</view>
-
-<button open-type="getUserInfo" bindgetuserinfo="fetchInfo">获取信息</button>
-
-<view bindtap="getLocalPath">位置：{{LocalPath}}</view>

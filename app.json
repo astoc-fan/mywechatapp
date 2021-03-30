@@ -1,13 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/redirect/redirect",
-    "pages/bind/bind",
-    "pages/login/login",
-    "pages/goods/goods",
-    "pages/publish/publish",
-    "pages/telphone/telphone",
+    "pages/mine/mine",
+    "pages/upload/upload",
     "pages/upload2/upload2"
   ],
   "window": {
@@ -22,23 +17,16 @@
       {
         "pagePath": "pages/index/index",
         "text": "Main",
-        "iconPath": "static/img/icon/home.png",
-        "selectedIconPath": "static/img/icon/home-selected.png"
+        "iconPath": "img/icon/home.png",
+        "selectedIconPath": "img/icon/home-selected.png"
       },
       {
-        "pagePath": "pages/login/login",
+        "pagePath": "pages/mine/mine",
         "text": "Mine",
-        "iconPath": "static/img/icon/mine.png",
-        "selectedIconPath": "static/img/icon/mine-selected.png"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "Log",
-        "iconPath": "static/img/icon/log.png",
-        "selectedIconPath": "static/img/icon/log-selected.png"
+        "iconPath": "img/icon/mine.png",
+        "selectedIconPath": "img/icon/mine-selected.png"
       }
     ]
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
