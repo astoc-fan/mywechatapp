@@ -3,7 +3,7 @@
     "pages/index/index",
     "pages/mine/mine",
     "pages/upload/upload",
-    "pages/upload2/upload2"
+    "pages/uploadnew/upload"
   ],
   "window": {
     "backgroundTextStyle": "light",

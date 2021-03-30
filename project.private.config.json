@@ -15,6 +15,12 @@
         {
           "name": "pages/upload2/upload2",
           "pathName": "pages/upload2/upload2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/uploadnew/upload",
+          "pathName": "pages/uploadnew/upload",
           "scene": null
         }
       ]
