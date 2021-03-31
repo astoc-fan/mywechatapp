@@ -44,16 +44,23 @@ Page({
     const { picker, value, index } = event.detail;
     Toast(`当前值：${value}, 当前索引：${index}`);
   },
+<<<<<<< HEAD
   filenum_onchange(e) {
     this.setData({
       file_num: e.detail
     })
   },
+=======
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
 
   afterRead(event) {
     const {file} = event.detail; // 当设置 mutiple 为 true 时, file 为数组格式，否则为对象格式
     this.setData({
       fileList: file,
+<<<<<<< HEAD
+=======
+      columns: ['一般货物照片', '破损货物照片', '签收文件照片', '其他'],
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
     })
     // this.uploadImg(file);
   },
@@ -73,11 +80,15 @@ Page({
   uploadReportPic: function () {
     let that = this;
     let imgArr = that.data.fileList;
+<<<<<<< HEAD
     let file_num = that.data.file_num;
     let pic_type = that.data.pickvalue;
     console.log(imgArr.length);
     console.log(file_num);
     console.log(pic_type);
+=======
+    console.log(imgArr.length);
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
     if (imgArr.length > 0) {
       // 成功个数
       var successUp = 0;
@@ -88,19 +99,33 @@ Page({
       // 第几张
       var count = 0; 
       // 上传函数
+<<<<<<< HEAD
       that.uploadImg(imgArr, file_num, pic_type, successUp, failUp, count, length);
     } else {
       wx.showToast({
         title: '请选择图片',
+=======
+      that.uploadImg(imgArr, successUp, failUp, count, length);
+    } else {
+      wx.showToast({
+        title: '内容不能为空',
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
         icon: 'error',
         duration: 2000
       })
       return false;
     }
   },
+<<<<<<< HEAD
   uploadImg:function(imgPaths, file_num, pic_type, successUp, failUp, count, length) {
     var that = this;
     console.log(that.data.pickvalue);
+=======
+  uploadImg:function(imgPaths, successUp, failUp, count, length) {
+    var that = this;
+    console.log("uploadimg that");
+    console.log(that);
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
     wx.showLoading({
       title: '正在上传第' + count + '张',
     })
@@ -110,8 +135,13 @@ Page({
         name: 'file',
         formData: {
           'user': 'test1',
+<<<<<<< HEAD
           'file_num' : file_num,
           'pic_type' : pic_type,
+=======
+          'file_num' : that.file_num,
+          'pic_type' : that.pickvalue,
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
         },
         success: function (res) {
           console.log(res)

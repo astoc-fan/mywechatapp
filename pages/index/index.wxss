@@ -1,4 +1,5 @@
 /**index.wxss**/
+<<<<<<< HEAD
 
 .logo {
   display: flex;
@@ -13,3 +14,78 @@
   width: 99rpx;
   height: 59rpx;
 }
+=======
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.logo .image {
+  clear: both;
+  width: 99rpx;
+  height: 59rpx;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.demo-text-1{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #1AAD19;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.demo-text-1:before{
+  content: '使用说明';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.demo-text-2{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #2782D7;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+.demo-text-2:before{
+  content: 'B';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.demo-text-3{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #ee3b3b;
+  color: #ffffff;
+  font-size: 36rpx;
+}
+.demo-text-3:before{
+  content: 'C';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc

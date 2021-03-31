@@ -11,7 +11,11 @@
     label="货物单号"
     left-icon="orders-o"
     placeholder="请输入货物单号"
+<<<<<<< HEAD
     bind:change="filenum_onchange"
+=======
+    bind:click-icon="onClickIcon"
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
   />
   <view bindtap="showPopup">
     <van-field

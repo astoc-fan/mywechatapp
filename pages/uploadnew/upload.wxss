@@ -1,0 +1,6 @@
+/* pages/uploadnew/upload.wxss */
+
+.button{
+  font-size: 32rpx;
+  margin: 0rpx 0rpx 15rpx 0rpx;
+}

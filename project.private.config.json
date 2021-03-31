@@ -12,8 +12,19 @@
     "miniprogram": {
       "list": [
         {
+<<<<<<< HEAD
           "name": "pages/upload/upload",
           "pathName": "pages/upload/upload",
+=======
+          "name": "pages/upload2/upload2",
+          "pathName": "pages/upload2/upload2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/uploadnew/upload",
+          "pathName": "pages/uploadnew/upload",
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
           "scene": null
         }
       ]

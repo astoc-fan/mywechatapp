@@ -1,6 +1,40 @@
 <view class="container">
   <view class="logo">
+<<<<<<< HEAD
     <image class = 'image' src="../../img/logo.png" alt=""></image>
+=======
+    <image class='image' src="../../img/logo.png" alt=""></image>
+    <view>Expeditors 货物照片上传</view>
+  </view>
+</view>
+
+<view class="container">
+  <swiper
+        indicator-dots="true" autoplay="true" circular="true"
+        interval="2000" duration="500" previous-margin="0px" next-margin="0px">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+</view>
+
+<view class="container">
+  <view class="main">
+    <view class="item">
+      <navigator url="/pages/upload/upload">
+        <van-icon color="red" size="200rpx" name="upgrade" />  
+      </navigator>
+      <view>拍照上传1</view>
+    </view>
+    <view class="item">
+      <navigator url="/pages/uploadnew/upload">
+        <van-icon color="red" size="200rpx" name="upgrade" />  
+      </navigator>
+      <view>拍照上传2</view>
+    </view>
+>>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
   </view>
     <navigator url="/pages/upload/upload">
       <van-icon color="red" size="200rpx" name="upgrade" />
