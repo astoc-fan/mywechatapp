@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: space-between;
-  padding: 100rpx 0;
-  box-sizing: border-box;
-=======
 /**app.wxss**/
 @import '/miniprogram_npm/@vant/weapp/common/index.wxss';
 Page {
@@ -20,5 +10,4 @@ Page {
   margin-left: 10rpx;
   margin-right: 10rpx;
   margin-bottom: 10rpx;
->>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
 }

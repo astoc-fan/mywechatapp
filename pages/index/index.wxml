@@ -1,8 +1,5 @@
 <view class="container">
   <view class="logo">
-<<<<<<< HEAD
-    <image class = 'image' src="../../img/logo.png" alt=""></image>
-=======
     <image class='image' src="../../img/logo.png" alt=""></image>
     <view>Expeditors 货物照片上传</view>
   </view>
@@ -34,10 +31,5 @@
       </navigator>
       <view>拍照上传2</view>
     </view>
->>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
   </view>
-    <navigator url="/pages/upload/upload">
-      <van-icon color="red" size="200rpx" name="upgrade" />
-      <view class="logo">拍照上传</view>
-    </navigator>
-</view>
+  </view>

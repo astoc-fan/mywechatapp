@@ -1,15 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-<<<<<<< HEAD
-    "pages/logs/logs",
-    "pages/mine/mine",
-    "pages/upload/upload"
-=======
     "pages/mine/mine",
     "pages/upload/upload",
     "pages/uploadnew/upload"
->>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,47 +11,21 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json",
-  "usingComponents": {
-    "van-button": "@vant/weapp/button/index",
-    "van-icon": "@vant/weapp/icon/index",
-    "van-tabbar": "@vant/weapp/tabbar/index",
-    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
-    "van-uploader": "@vant/weapp/uploader/index",
-    "van-row": "@vant/weapp/row/index",
-    "van-col": "@vant/weapp/col/index",
-    "van-field": "@vant/weapp/field/index",
-    "van-cell": "@vant/weapp/cell/index",
-    "van-cell-group": "@vant/weapp/cell-group/index",
-    "van-popup": "@vant/weapp/popup/index",
-    "van-toast": "@vant/weapp/toast/index",
-    "van-picker": "@vant/weapp/picker/index"
-  },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
-<<<<<<< HEAD
-        "text": "主页",
-=======
         "text": "Main",
->>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
         "iconPath": "img/icon/home.png",
         "selectedIconPath": "img/icon/home-selected.png"
       },
       {
         "pagePath": "pages/mine/mine",
-<<<<<<< HEAD
-        "text": "我的",
-=======
         "text": "Mine",
->>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
         "iconPath": "img/icon/usercenter.png",
         "selectedIconPath": "img/icon/usercenter-selected.png"
       }
     ]
-<<<<<<< HEAD
-=======
   },
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
@@ -74,6 +42,5 @@
     "van-popup": "@vant/weapp/popup/index",
     "van-toast": "@vant/weapp/toast/index",
     "van-picker": "@vant/weapp/picker/index"
->>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
   }
 }

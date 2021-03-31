@@ -1,20 +1,4 @@
 /**index.wxss**/
-<<<<<<< HEAD
-
-.logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.logo .image {
-  clear: both;
-  display: block;
-  margin: auto;
-  margin-top: 10rpx;
-  width: 99rpx;
-  height: 59rpx;
-}
-=======
 .logo {
   display: flex;
   flex-direction: row;
@@ -88,4 +72,3 @@
   display: block;
   height: 150px;
 }
->>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc

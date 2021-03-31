@@ -4,11 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-<<<<<<< HEAD
-    
-=======
     background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
->>>>>>> bd0d2947469c036b6a715dea8a5f5138f5f1d8bc
   },
 
   /**
