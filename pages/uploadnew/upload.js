@@ -113,7 +113,8 @@ Page({
       title: '正在上传第' + count + '张',
     })
     wx.uploadFile({
-      url: 'https://www.astoc.tk:4431/mo/upload/upload.php', //写自己的路径
+      //url: 'https://www.astoc.tk:4431/mo/upload/upload.php', //写自己的路径
+      url: 'https://expd-pic.kooldns.cn/mo/upload/upload.php',
       filePath: imgArr[count].url,
       name: 'file',
       formData: {

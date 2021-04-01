@@ -23,7 +23,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -46,7 +46,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.16.0",
-  "appid": "wx30720c392be8a6e6",
+  "appid": "wxd0d4eeaef82b9171",
   "projectname": "expd-cargo-photo-upload",
   "debugOptions": {
     "hidedInDevtools": []
