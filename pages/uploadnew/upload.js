@@ -64,11 +64,11 @@ Page({
       file
     } = event.detail; // 当设置 mutiple 为 true 时, file 为数组格式，否则为对象格式
     console.log(file);
-    wx.showToast({
-      title: 'trigger after read',
-    })
+    let fileList = this.data.fileList    
+    fileList = fileList.concat(file)
+    console.log(fileList);
     this.setData({
-      fileList: file,
+      fileList
     })
   },
 

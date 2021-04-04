@@ -11,7 +11,7 @@
       </view>
 
       <van-field label="上传图片" required readonly left-icon="photo-o"></van-field>
-      <van-uploader file-list="{{ fileList }}" preview-size="210rpx" bind:afterread="afterRead" 
+      <van-uploader file-list="{{ fileList }}" preview-size="225rpx" bind:afterread="afterRead" 
       bind:delete="delete" multiple="{{true}} "></van-uploader>
     </van-cell-group>
     <van-popup round show="{{ showPopup  }}" position="bottom" custom-style="height: 40%;" bind:close="onPopupClose">
