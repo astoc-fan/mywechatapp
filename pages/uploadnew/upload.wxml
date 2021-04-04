@@ -11,8 +11,8 @@
       </view>
 
       <van-field label="上传图片" required readonly left-icon="photo-o"></van-field>
-      <van-uploader file-list="{{ fileList }}" accept="image" capture="['album', 'camera']"
-        bind:after-read="afterRead" bind:delete="delete" multiple="{{true}}" />
+      <van-uploader file-list="{{ fileList }}" preview-size="210rpx" bind:afterread="afterRead" 
+      bind:delete="delete" multiple="{{true}} "></van-uploader>
     </van-cell-group>
     <van-popup round show="{{ showPopup  }}" position="bottom" custom-style="height: 40%;" bind:close="onPopupClose">
       <van-picker show-toolbar title="选择图片类型" value-key="value" default-index="{{ 0 }}"

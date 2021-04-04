@@ -179,7 +179,7 @@ component_1.VantComponent({
       if (typeof afterRead === 'function') {
         afterRead(file, this.getDetail());
       }
-      this.$emit('after-read', __assign({ file: file }, this.getDetail()));
+      this.$emit('afterread', __assign({ file: file }, this.getDetail()));
     },
     deleteItem: function (event) {
       var index = event.currentTarget.dataset.index;

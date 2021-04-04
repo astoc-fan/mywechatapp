@@ -64,6 +64,9 @@ Page({
       file
     } = event.detail; // 当设置 mutiple 为 true 时, file 为数组格式，否则为对象格式
     console.log(file);
+    wx.showToast({
+      title: 'trigger after read',
+    })
     this.setData({
       fileList: file,
     })
@@ -75,7 +78,7 @@ Page({
     let imgDelIndex = event.detail.index
     let fileList = this.data.fileList
     fileList.splice(imgDelIndex, 1)
-    console.log('删除图片的', fileList)
+    console.log('删除的图片', fileList)
     this.setData({
       fileList
     })
